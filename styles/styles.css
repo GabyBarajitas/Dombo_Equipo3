@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.botonMediano{
+    width: 123px;
+    height: 121px;
+    background-color: gray;
+    border-color: grey;
+}
+
+.instrumento{
+    display: grid;
+}
+
+.botonMediano{
+    position: relative;
+    top: 274px;
+}
