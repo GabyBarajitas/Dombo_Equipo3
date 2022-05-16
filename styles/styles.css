@@ -4,18 +4,63 @@
     box-sizing: border-box;
 }
 
-.botonMediano{
-    width: 123px;
-    height: 121px;
-    background-color: gray;
-    border-color: grey;
+@media only screen and (max-width: 414px){
+
+    /* Aqui la info de estilos para móvil */
+
 }
 
-.instrumento{
+.principal{
+    height: 80%;
+    background-color: #010021;
     display: grid;
+    grid-template-columns: auto auto;
 }
 
-.botonMediano{
+.mainSectionA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itmMainSectionA{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.text1{
+    font-size: 4.5em;
+}
+
+.text2{
+    color:#605975;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.SectionABtn{
+    background-color: #00f582;
+    color: white;
+    font-size: small;
+    padding: 0.5% 1%;
+    border-radius: 15px;
+}
+
+.mainSectionB{
+    display: flex;
     position: relative;
-    top: 274px;
+    z-index: 1;
+    flex-shrink: 2;
+}
+.circuloMed{
+    background-color: rgb(167, 79, 79);
+    width: 125px;
+    height: 118px;
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 4;
+    z-index: 2;
+    top: 6%;
+    left: -74%;
 }
