@@ -10,32 +10,34 @@
 
 }
 
+.bodyMain{
+    height: 60%;
+}
 .principal{
     display:flex;
-    height: 600px;
-    background-color: #010021;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .margenDerecho{
-    width: 10%;
+    width:6%;
 }
 .mainSectionA{
+    width: 16%;
+    height: 100%;
     display:flex;
     color:white;
     flex-direction:column;
-    position: static;
-    margin-top: 25px;
+    margin-top: 10%;
     flex-shrink: 1;
     flex-grow: 1;
 }
 .text1{
     display: flex;
-    font-size: 4em;
-    margin-top: 20px;
+    font-size: 3em;
+    margin-top: 1rem;
 }
 .text2{
     font-size: 1em;
-    color:#756059;
+    color:#605975;
     margin-top: 15px;
 }
 
@@ -45,20 +47,23 @@
     background-color: #00f582;
     border-color: #00f582;
     border-radius: 15px;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
 }
 .mainSectionB{
     width: 60%;
 }
 
-.mainFooter{
+.mainImage{
+    width: 80%;
+}
+.bodyFooter{
     display:flex;
-    height: 200px;
+    height: 25%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #010021;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -69,13 +74,13 @@
 
 .textFoot2{
     color: #605975;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: 10px;
 }
 
 .footBtn{
     width: 10em;
-    height: 2.5em;
+    height: 2em;
     background-color: white;
     border-color: white;
     border-radius: 15px;
