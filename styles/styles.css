@@ -21,9 +21,11 @@ body{
     margin-left: 5%;
 }
 .Encabezado{
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .OpEncabezado{
@@ -39,6 +41,7 @@ body{
 }
 
 .OpEncabezado a:hover{
+    color: #00f582;
     text-emphasis-color: #00f582;
 }
 
