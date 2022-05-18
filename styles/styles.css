@@ -1,3 +1,10 @@
+@import'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@media only screen and (max-width: 414px){
+
+    /* Aqui la info de estilos para móvil */
+
+}
+
 *{
     padding:0;
     margin:0;
@@ -5,10 +12,35 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media only screen and (max-width: 414px){
+body{
+    background-color:#010021
+}
 
-    /* Aqui la info de estilos para móvil */
+.logo{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.Encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.OpEncabezado{
+    display: flex;
+    justify-content: center;  
+}
+
+.OpEncabezado a{
+    text-decoration: none;
+    box-sizing: content-box;
+    padding:15%;
+    color:white;
+}
+
+.OpEncabezado a:hover{
+    text-emphasis-color: #00f582;
 }
 
 .principal{
