@@ -1,8 +1,58 @@
+@import'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
+
+header{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    background-color:FFFFF 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+    
+
+}
+
+.logo img{
+    
+    height: 60;
+}
+a{
+    text-decoration: none;
+    color:white
+
+}
+nav a{
+    font-weight: 600;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+nav a:hover{
+    background: #605975;
+    border-radius: 36px;
+}
+
+.span{
+    background-color: #00f582;
+}
+
+    
+
+    
+
 
 @media only screen and (max-width: 414px){
 
