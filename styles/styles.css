@@ -2,7 +2,6 @@
 @media only screen and (max-width: 414px){
 
     /* Aqui la info de estilos para móvil */
-
 }
 
 *{
@@ -65,6 +64,7 @@ body{
     display: flex;
     font-size: 3em;
 }
+
 .text2{
     font-size: 1em;
     color:#605975;
@@ -78,6 +78,7 @@ body{
     border-radius: 15px;
     margin-top: 25px;  
 }
+
 .mainSectionB{
     width: 60%;
     display: flex;
@@ -89,6 +90,7 @@ body{
 .mainImage{
     z-index: 1;
 }
+
 .layersBtns{
     position: relative;
     z-index: 2;
