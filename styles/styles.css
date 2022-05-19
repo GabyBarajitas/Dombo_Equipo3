@@ -11,6 +11,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*@media only screen and (max-width: 1440px){*/
+
 body{
     background-color:#010021
 }
@@ -36,20 +38,18 @@ body{
 .Opciones a{
     text-decoration: none;
     color: white;
-    padding-right: 35px;
+    padding-right: 10px;
+    padding-left: 60px;
 }
 
 .Opciones a:hover{
     color: #00f585;
     border-right: white;
-    border-width: 2px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 2px;
     border-style: solid;
-}
-
-.principal{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .mainLine{
@@ -58,14 +58,13 @@ body{
 
 .mainSectionA{
     display:flex;
-    color:white;
     flex-direction:column;
-    width: 35%%;
+    width: 25%%;
     margin-top: 5%;
 }
 
 .text1{
-    display: flex;
+    color:white;
     font-size: 3em;
 }
 
@@ -100,15 +99,72 @@ body{
     z-index: 2;
 }
 
-#btnMed1 {
+.buttn {
     position: absolute;
     width: 16%;
     height: 20%;
     border-radius: 50%;
-    background: #5cb85c;
+    background: #4b514b;
     z-index: 2;
-    top:10%;
+    display: none;
+}
+
+.layersBtns buttn:hover{
+    display: block;
+}
+
+.buttnGran {
+    position: absolute;
+    width: 22%;
+    height: 30%;
+    border-radius: 51%;
+    background: #4b514b;
+    z-index: 2;
+    display: none;
+}
+
+.layersBtns buttnGran:hover{
+    display: block;
+}
+
+#btn1 {
+    top: 6%;
     left: 2%
+}
+
+#btn2 {
+    top:29%;
+    left: 9.5%
+}
+
+#btn3 {
+    top: 6%;
+    left: 82%
+}
+
+#btn4 {
+    top:29%;
+    left: 74.5%
+}
+
+#btn5 {
+    top: 15.5%;
+    left: 27%
+}
+
+#btn6 {
+    top: 15.5%;
+    left: 50.5%
+}
+
+#btn7 {
+    top: 53%;
+    left: 15%;
+}
+
+#btn8 {
+    top: 53%;
+    left: 63%;
 }
 
 .bodyFooter{
@@ -140,3 +196,4 @@ body{
     border-radius: 15px;
     margin-top: 10px;
 }
+/*} */
