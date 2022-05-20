@@ -106,8 +106,8 @@ body{
     border-radius: 50%;
     background: #4b514b;
     z-index: 2;
-    display: none;
 }
+
 
 .layersBtns buttn:hover{
     display: block;
@@ -120,7 +120,6 @@ body{
     border-radius: 51%;
     background: #4b514b;
     z-index: 2;
-    display: none;
 }
 
 .layersBtns buttnGran:hover{
