@@ -1,7 +1,4 @@
-@media only screen and (max-width: 414px){
-
-    /* Aqui la info de estilos para móvil */
-}
+@import "encabezado.css";
 
 * {
     padding: 0;
@@ -10,8 +7,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*@media only screen and (max-width: 1440px){*/
-
 body{
     background-color:#010021
 }
@@ -19,37 +14,6 @@ body{
 .allContent{
     margin-left: 8%;
     margin-right: 2%;
-}
-
-.Encabezado{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    min-width: 200px;
-    min-height: 40px;
-}
-
-.Opciones{
-    margin-right: 5%;
-}
-.Opciones a{
-    text-decoration: none;
-    color: white;
-    padding-right: 10px;
-    padding-left: 60px;
-}
-
-.Opciones a:hover{
-    color: #00f585;
-    border-right: white;
-    border-top: 0;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 2px;
-    border-style: solid;
 }
 
 .mainLine{

@@ -1,0 +1,41 @@
+.Encabezado{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    min-width: 200px;
+    min-height: 40px;
+}
+
+.Opciones{
+    margin-right: 5%;
+}
+.Opciones a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 60px;
+}
+
+.Opciones a:hover{
+    color: #00f585;
+    border-right: white;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 2px;
+    border-style: solid;
+}
+
+@media (max-width: 500px){
+
+    .Opciones{
+        display: none;
+    }
+
+    .Encabezado{
+        justify-content: center;
+    }
+}
