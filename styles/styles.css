@@ -137,6 +137,10 @@ body{
 
 @media (max-width: 500px){
 
+    body{
+        background-color:#010021
+    }
+
     .text1{
         color:white;
         font-size: 25px;
@@ -161,5 +165,27 @@ body{
 
     .mainSectionB{
         width: 100%;
+    }
+    
+    .allContent_Page1Mobile{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .bttnSonidoMobile{
+        margin-top: 5%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hitSound{
+        width: 375px;
+        height: 325px;
+        border-radius: 75%;
+        background-color: rgb(35, 34, 34);
+        border: none;
+        font-size: larger;
     }
 }
