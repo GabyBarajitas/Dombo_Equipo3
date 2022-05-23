@@ -4,9 +4,9 @@
     justify-content: space-between;
 }
 
-.logo{
-    min-width: 200px;
-    min-height: 40px;
+
+.boton-bur{
+    display: none;
 }
 
 .Opciones{
@@ -20,8 +20,8 @@
 }
 
 .Opciones a:hover{
-    color: #00f585;
     border-right: white;
+    color: #00f585;
     border-top: 0;
     border-bottom: 0;
     border-left: 0;
@@ -37,5 +37,26 @@
 
     .Encabezado{
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        margin-top:5%;
+        width: 50%;
+    }
+    .boton-bur{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .propBotBur{
+        background-color: #00f585;
+        color: white;
+        width: 15%;
+        height: 20%;
+        border-radius: 15px;
     }
 }

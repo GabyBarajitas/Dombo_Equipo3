@@ -1,4 +1,5 @@
 @import "encabezado.css";
+@import "piePagina.css";
 
 * {
     padding: 0;
@@ -29,11 +30,11 @@ body{
 
 .text1{
     color:white;
-    font-size: 3em;
+    font-size: 4vw;
 }
 
 .text2{
-    font-size: 1em;
+    font-size: 1.5vw;
     color:#605975;
 }
 
@@ -74,7 +75,6 @@ body{
     opacity: 0;
     z-index: 2;
 }
-
 
 .layersBtns buttn:hover{
     display: block;
@@ -135,32 +135,31 @@ body{
     left: 63%;
 }
 
-.bodyFooter{
-    display:flex;
-    height: 25%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+@media (max-width: 500px){
 
-.textFoot1{
-    color: white;
-    font-size: 1.5em;
-}
+    .text1{
+        color:white;
+        font-size: 25px;
+    }
+    
+    .text2{
+        font-size: 12px;
+        color:#605975;
+    }
 
-.textFoot2{
-    color: #605975;
-    font-size: 0.8em;
-    margin-top: 10px;
-}
+    .mainLine{
+        margin-top: 10%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 
-.footBtn{
-    width: 10em;
-    height: 2em;
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    margin-top: 10px;
+    .mainSectionA{
+        width: 100%;
+        margin-left: 20%;
+        align-items: right;
+    }
+
+    .mainSectionB{
+        width: 100%;
+    }
 }
