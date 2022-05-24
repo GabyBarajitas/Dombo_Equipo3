@@ -80,10 +80,6 @@ body{
     z-index: 2;
 }
 
-.layersBtns buttn:hover{
-    display: block;
-}
-
 .buttnGran {
     position: absolute;
     width: 22%;
@@ -93,10 +89,6 @@ body{
     background: black;
     opacity: 0;
     z-index: 2;
-}
-
-.layersBtns buttnGran:hover{
-    display: block;
 }
 
 #btn1 {
@@ -139,6 +131,10 @@ body{
     left: 63%;
 }
 
+.allContent_Page1Mobile{
+    display: none;
+}
+
 @media (max-width: 500px){
 
     body{
@@ -151,6 +147,7 @@ body{
     .layerBtnsMobile{
         display: block;
     }
+
     .text1{
         color:white;
         font-size: 25px;
@@ -181,6 +178,7 @@ body{
         display: flex;
         flex-direction: column;
         height: 100%;
+        display: none;
     }
 
     .bttnSonidoMobile{
@@ -198,4 +196,6 @@ body{
         border: none;
         font-size: larger;
     }
+
+
 }
