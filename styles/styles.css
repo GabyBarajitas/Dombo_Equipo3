@@ -9,7 +9,9 @@
 }
 
 body{
-    background-color:#010021
+    background-color:#010021;
+    /*min-height: 100vh;*/
+    /*max-width: 100vh;*/
 }
 
 .allContent{
